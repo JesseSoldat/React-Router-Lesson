@@ -2,10 +2,10 @@ import React from 'react'
 
 export default React.createClass({
 	render(){
-		return (
+		return(
 			<div>
-				<h4>About</h4>
+				<h3>Home</h3>
 			</div>
-		)
+			)
 	}
 })

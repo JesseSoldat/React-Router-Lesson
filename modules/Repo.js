@@ -4,8 +4,11 @@ export default React.createClass({
 	render(){
 		return (
 			<div>
-				<h4>About</h4>
+				<h2>{this.props.params.repoName}
+				</h2>
 			</div>
-		)
+
+
+			)
 	}
 })
