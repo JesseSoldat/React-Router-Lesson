@@ -13,6 +13,7 @@ import Home from './modules/Home'
 import About from './modules/About'
 import Repos from './modules/Repos'
 import Repo from './modules/Repo'
+import Todos from './modules/todo/Todos'
 
 
 
@@ -24,6 +25,7 @@ render(
 			<Route path="/repos" component={Repos}>
 				<Route path="/repos/:userName/:repoName" component={Repo} />
 			</Route>
+			<Route path="/todos" component={Todos}/>
 		</Route>
 	</Router>
 
