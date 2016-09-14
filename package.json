@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --content-base . --history-api-fallback"
+    
+  "start": "webpack-dev-server --inline --content-base . --history-api-fallback"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
     "firebase": "^3.3.2",
+    "if-env": "^1.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0"

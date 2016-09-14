@@ -6,6 +6,7 @@ export default React.createClass({
 			<div>
 				<h2>{this.props.params.repoName}
 				</h2>
+				<hr/>
 			</div>
 
 

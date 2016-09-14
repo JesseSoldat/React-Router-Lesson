@@ -1,5 +1,9 @@
 # Setting up the Project
 
+NODE_ENV=production npm start
+# For Windows users:
+# SET "NODE_ENV=production" && npm start
+
 First you'll need [Node.js](https://nodejs.org) and the package manager
 that comes with it: [npm](https://www.npmjs.com/).
 

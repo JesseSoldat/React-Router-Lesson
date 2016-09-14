@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import firebase from 'firebase'
-import { Router, Route, hashHistory, browserHistory, IndexRoute } from 'react-router'
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
 import config from './firebaseConfig'
 

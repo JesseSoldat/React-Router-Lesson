@@ -4,7 +4,8 @@ export default React.createClass({
 	render(){
 		return(
 			<div>
-				<h3>Home</h3>
+				<h3>React Fire</h3>
+				<hr/>
 			</div>
 			)
 	}
