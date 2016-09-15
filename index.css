@@ -1,3 +1,9 @@
 .active {
 	color: red;
 }
+
+#navLinks > li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 1%;
+}

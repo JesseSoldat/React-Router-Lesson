@@ -45,7 +45,7 @@ let Todos = React.createClass({
 	render: function(){
 		return(<div>
 			<form onSubmit={this.handleSubmit}>
-				<input onChange={this.onChange}value={this.state.text}/>
+				<input onChange={this.onChange} value={this.state.text}/>
 				<button>{'Add #'+(this.state.items.length+1)}</button>
 			</form>
 			<List items={this.state.items}
