@@ -10,6 +10,7 @@ firebase.initializeApp(config);
 
 import App from './modules/App'
 import Login from './modules/login/Login'
+import Register from './modules/login/Register'
 import Home from './modules/Home'
 import About from './modules/About'
 import Repos from './modules/Repos'
@@ -22,6 +23,7 @@ import Todos from './modules/todo/Todos'
 render(
 	<Router history={browserHistory}>
 		<Route path="/login" component={Login}/>
+		<Route path="/register" component={Register}/>
 		<Route path="/" component={App}>
 			<IndexRoute component={Home}/>
 			<Route path="/about" component={About}/>

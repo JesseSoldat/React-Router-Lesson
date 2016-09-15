@@ -1,5 +1,6 @@
 import React from 'react'
 import { browserHistory } from 'react-router'
+import NavLink from '../NavLink'
 
 export default React.createClass({
 
@@ -45,6 +46,7 @@ export default React.createClass({
 	render(){
 		return (
 		<div>
+			<h3>Login</h3>
 			<form onSubmit={this.handleSubmit}>
 				<input value={this.state.email} 
 						onChange={this.onChangeEmail}
@@ -59,6 +61,7 @@ export default React.createClass({
 						required />
 				<button>Login</button>
 			</form>
+			<NavLink to="/register">Register</NavLink>
 		</div>
 		)
 	}
